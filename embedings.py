@@ -17,4 +17,4 @@ vectorstore = FAISS.from_documents(chunks, embeddings)
 # Save vectorstore to file
 vectorstore.save_local("faiss_store")
 
-print("Vector store created and saved.")
+print("Vector store created and saved.")s
