@@ -39,14 +39,14 @@ def load_documents(folder_path):
                     print(f"⚠️ Skipped empty DOCX: {file}")
         
         except Exception as e:
-            print(f"❌ Error loading {file}: {str(e)}")
+            print(f" Error loading {file}: {str(e)}")
     
     return all_texts
 
 # Update this path to your actual documents folder
 documents = load_documents("C:/Users/taniy/Desktop/documents")
 
-print(f"\n📊 Total documents loaded: {len(documents)}")
+print(f"\n Total documents loaded: {len(documents)}")
 
 if documents:
     print("Type of first document:", type(documents[0]))
